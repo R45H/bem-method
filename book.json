@@ -1,4 +1,29 @@
 {
-    "description": "BEM documentation",
-    "plugins": ["comment"]
+    "description":"BEM documentation",
+    "styles": {
+       "website": "static/index.css"
+    },
+    "plugins":[
+        "comment",
+        "theme-api",
+        "-sharing",
+        "search",
+        "collapsible-menu"
+    ],
+    "pluginsConfig": {
+    "theme-api": {
+        "languages": [
+            {
+                "lang": "js",
+                "name": "JavaScript",
+                "default": true
+            },
+            {
+                "lang": "go",
+                "name": "Go"
+            }
+        ],
+        "split": true
+        }
+    }
 }
