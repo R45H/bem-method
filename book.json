@@ -14,13 +14,13 @@
     "theme-api": {
         "languages": [
             {
-                "lang": "js",
-                "name": "JavaScript",
+                "lang": "en",
+                "name": "EN",
                 "default": true
             },
             {
-                "lang": "go",
-                "name": "Go"
+                "lang": "uk",
+                "name": "UK"
             }
         ],
         "split": true
